@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="images/logo.jpg" alt=""></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h1>Best Of Diljit Dosanjh</h1>
+            <div class="songitemcontainer">
+                <div class="songItem">
+                    <img src="images/diljit.png" alt="1">
+                    <span class="SongName">Hass Hass</span>
+                    <span class="songlistplay"><i id="0"class="fas songplay fa-play-circle"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="images/img.jpg" alt="2">
+                    <span class="SongName">Peaches</span>
+                    <span class="songlistplay"><i id="1"class="fas songplay fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="images/lemonade.jpg" alt="3">
+                    <span class="SongName">lemonade</span>
+                    <span class="songlistplay"><i id="2"class="fas songplay fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="images/highend.jpg" alt="4">
+                    <span class="SongName">High End</span>
+                    <span class="songlistplay"><i id="3"class="fas songplay fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="images/lalkara.jpg" alt="5">
+                    <span class="SongName">Lalkara</span>
+                    <span class="songlistplay"><i id="4"class="fas songplay fa-play-circle"></i></span>
+                    </span>
+                </div> 
+            </div>
+        </div>
+        <div class="banner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-backward-step" id="previous"></i>
+            <i class="fas fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-forward-step" id="next"></i>
+
+        </div>
+        <div class="songinfo">
+            <img src="images/playing.gif" alt="" id="gif"> <span id="mastersongname"> Hass Hass</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/ae78be9467.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <div></div>
+
+    
+</body>
+</html>
